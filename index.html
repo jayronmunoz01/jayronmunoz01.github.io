@@ -53,19 +53,183 @@ li a:hover:not(.active) {
 </ul>
 </body>
 </html>
-    <html> 
-    <img src="/New/Image/pic.jpg" alt="Mypic" class="center">
-    <style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+
+    <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
 }
-        .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
   width: 25%;
 }
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 </style>
- </html>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>My Life Story </h1>
+<hr>
+
+<h2>Highlights</h2>
+    <div class="content">
+  <img src="Image/highlights.jpg" alt="highlights" style="width:100%">
+ 
+    </div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Image/unfold.jpg" alt="Baby" style="width:100%">
+      <h3>My story unfold</h3>
+      <p> I was born and raised in the Philippines on September 1, 2001.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="/Image/Starting.jpg" alt="Lights" style="width:100%">
+      <h3>Filled with innocence and happiness</h3>
+      <p>I met my second family back when I was an elementary student. It is very sad to realize that my family now is thousand miles apart from me.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="/Image/flight.jpg" alt="Nature" style="width:100%">
+      <h3>Life challenges started</h3>
+      <p> I immigrated to Hawaii when I was fourteen years old. I left without my sister and my mom, I left my friends, and the life I used to live.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="/Image/arizona.jpg" alt="Mountains" style="width:100%">
+      <h3>Hoping for a better chance in many place</h3>
+      <p>Not too long when I was able to recover from being homesick in Hawaii, my dad and I moved to Arizona in 2015.</p>
+    </div>
+  </div>
+  <html>
+<head>
+<style>
+h1.visible {visibility:visible}
+h1.hidden {visibility:hidden}
+</style>
+</head>
+<body>
+
+
+<h1 class="hidden">This is an invisible heading</h1>
+
+</body>
+</html>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="/Image/mcdo.jpg" alt="Mountains" style="width:100%">
+      <h3>Back and forth</h3>
+      <p> After six months, we moved  back in Hawaii. I started working at the age of 16 as cashier at McDonald's in 2017.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="/Image/ell.jpeg" alt="Lights" style="width:100%">
+      <h3>Confidence grew with students with the same shoes as mines</h3>
+      <p> I experienced being bullied many times in school beacause I am a second language speaker that have a distinct accent,that made me doubt my self. But I met the people who will bring me up when I ascended to Freshman High School with the ELL family.
+</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Image/jollibee.jpg" alt="Nature" style="width:100%">
+      <h3>My Work</h3>
+      <p>I started a new job at Jollibee on July 4, 2018. Since then, I earned 5 awards: Three times of being the Joy Expert and Two times of being the Suggestive Seller Champ.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="/Image/friends.jpeg" alt="Mountains" style="width:100%">
+      <h3>See the old friends again</h3>
+      <p>I went to the Philippines and reunite with my friends again. The bond we had never fades, but instead it grows bigger with memories.
+</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="/Image/family.jpg" alt="Bear" style="width:100%">
+  <h3>Way Back Home</h3>
+  <p>I experienced many hardships when I started a new life in a different world. I am very lucky that after four years, my life is back how it was before.</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
+
+
+    
